@@ -1,5 +1,5 @@
 {
-  "name": "Discord-Bot-Practice",
+  "name": "Bot-Practice",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryryp97/Discord-Bot-Practice.git"
+    "url": "git+https://github.com/ryryp97/Bot-Practice.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ryryp97/Discord-Bot-Practice/issues"
+    "url": "https://github.com/ryryp97/Bot-Practice/issues"
   },
-  "homepage": "https://github.com/ryryp97/Discord-Bot-Practice#readme",
+  "homepage": "https://github.com/ryryp97/Bot-Practice#readme",
   "dependencies": {
     "discord.js": "^12.5.3"
   }
