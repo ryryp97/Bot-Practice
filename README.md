@@ -1,1 +1,1 @@
-# Discord-Bot-Practice
+# Bot-Practice
