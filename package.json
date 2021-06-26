@@ -1,0 +1,23 @@
+{
+  "name": "Discord-Bot-Practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryryp97/Discord-Bot-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryryp97/Discord-Bot-Practice/issues"
+  },
+  "homepage": "https://github.com/ryryp97/Discord-Bot-Practice#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
