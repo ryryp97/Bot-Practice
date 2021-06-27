@@ -15,14 +15,29 @@ client.on("message", msg => {
 
 const fetch = require("node-fetch")
 
-function getQuote() {
-  return fetch("https://zenquotes.io/api/random")
-    .then(res => {
-      return res.json()
-      })
-    .then(data => {
-      return data[0]["q"] + " -" + data[0]["a"]
-    })
+
+//This function utilizes .then to access the json from the api call
+// function getQuote() {
+//   return fetch("https://zenquotes.io/api/random")
+//     .then(res => {
+//       return res.json()
+//       })
+//     .then(data => {
+//       return data[0]["q"] + " -" + data[0]["a"]
+//     })
+// }
+
+//This function utilizaes async await to access the api's data
+const getQuote = async() => { 
+  try {
+    const url = "https://zenquotes.io/api/random";
+    const res = await fetch(url);
+    console.log(res.ok);
+    const data = await res.json();
+    return data[0]['q'] + " -" + data[0]['a']
+  } catch (err) {
+    console.log(err)
+  }
 }
 
 client.on("message", msg => {
